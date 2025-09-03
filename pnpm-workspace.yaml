@@ -1,2 +1,10 @@
 autoInstallPeers: true
+
+onlyBuiltDependencies:
+  - '@swc/core'
+  - lmdb
+  - msgpackr-extract
+  - nx
+  - unrs-resolver
+
 strictPeerDependencies: false
