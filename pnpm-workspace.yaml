@@ -1,5 +1,8 @@
 autoInstallPeers: true
 
+ignoredBuiltDependencies:
+  - '@nestjs/core'
+
 onlyBuiltDependencies:
   - '@swc/core'
   - lmdb
